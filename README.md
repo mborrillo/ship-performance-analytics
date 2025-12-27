@@ -57,7 +57,7 @@ Definiciones resumidas (detalle completo en `docs/kpi_definitions.md`):
 ## Dashboard en Looker Studio
 
 - **Enlace al dashboard**:  
-  - [Ship Performance Dashboard](AQUÍ_VA_TU_LINK_DE_LOOKER_STUDIO)
+  - [Ship Performance Dashboard](https://lookerstudio.google.com/u/1/reporting/e481b79a-fb1e-4f0a-a4a2-58e08fa082f4/page/p_m1xbbza0od)
 
 Páginas principales:
 
