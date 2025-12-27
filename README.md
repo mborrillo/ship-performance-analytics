@@ -67,7 +67,7 @@ Páginas principales:
 - **Detalles específicos**: tabla de detalle a nivel viaje para análisis granular.  
 - **Glosario**: definiciones de métricas, KPIs y términos técnicos usados en el dashboard.
 
-Capturas de ejemplo se encuentran en `dashboard/screenshots/`.
+Capturas de ejemplo se encuentran en `dashboard/screenshots.md`.
 
 ## Casos de uso
 
