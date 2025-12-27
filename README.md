@@ -85,12 +85,12 @@ Ejemplos de preguntas que se pueden responder con el dashboard:
 git clone https://github.com/mborrillo/ship-performance-analytics.git
 cd ship-performance-analytics
 
-2. 2. Colocar el dataset original en `data/ship_performance_raw.csv` (o seguir las instrucciones para descargarlo desde la fuente original).  
+2. Colocar el dataset original en `data/ship_performance_raw.csv` (o seguir las instrucciones para descargarlo desde la fuente original).  
 3. Conectar el archivo resultante a Looker Studio y replicar la estructura de páginas descrita en `dashboard/README_dashboard.md`.
 
 ## Licencia y créditos
 
-- Los datos pertenecen a su fuente original (Kaggle o la institución propietaria).  
+- Los datos pertenecen a su fuente original (Kaggle).  
 - Parte de los textos descriptivos y glosario se elaboraron con ayuda de modelos de lenguaje IA, y han sido revisados manualmente antes de su publicación.
 
 
