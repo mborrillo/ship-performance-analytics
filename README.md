@@ -49,10 +49,8 @@ Definiciones resumidas (detalle completo en `docs/kpi_definitions.md`):
 ## Flujo de trabajo
 
 1. El dataset original se almacena en `data/ship_performance_raw.csv`.  
-2. En `notebooks/01_data_preparation.ipynb` se realiza la limpieza y preparación básica de los datos.  
-3. En `notebooks/02_kpi_calculation.ipynb` se calculan los KPIs de negocio.  
-4. El resultado se exporta (por ejemplo a `data/ship_performance_model.csv`) y se conecta a Looker Studio como fuente del dashboard.  
-5. En `dashboard/README_dashboard.md` se documenta la estructura del dashboard y se incluyen capturas de pantalla.
+2. El resultado se exporta (por ejemplo a `data/ship_performance_model.csv`) y se conecta a Looker Studio como fuente del dashboard.  
+3. En `dashboard/README_dashboard.md` se documenta la estructura del dashboard y se incluyen capturas de pantalla.
 
 ## Dashboard en Looker Studio
 
@@ -84,3 +82,15 @@ Ejemplos de preguntas que se pueden responder con el dashboard:
 ## Cómo reproducir el proyecto
 
 1. Clonar este repositorio:
+git clone https://github.com/mborrillo/ship-performance-analytics.git
+cd ship-performance-analytics
+
+2. 2. Colocar el dataset original en `data/ship_performance_raw.csv` (o seguir las instrucciones para descargarlo desde la fuente original).  
+3. Conectar el archivo resultante a Looker Studio y replicar la estructura de páginas descrita en `dashboard/README_dashboard.md`.
+
+## Licencia y créditos
+
+- Los datos pertenecen a su fuente original (Kaggle o la institución propietaria).  
+- Parte de los textos descriptivos y glosario se elaboraron con ayuda de modelos de lenguaje IA, y han sido revisados manualmente antes de su publicación.
+
+
