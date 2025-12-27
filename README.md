@@ -13,7 +13,7 @@ Las operaciones de shipping implican altos costos operativos y exposición a fac
 
 ## Dataset
 
-- **Origen**: dataset público de rendimiento de viajes marítimos (por ejemplo, Kaggle).  
+- **Origen**: dataset público de rendimiento de viajes marítimos (Kaggle).  
 - **Archivo original**: `data/ship_performance_raw.csv`.  
 - **Archivo preparado/modelado** (opcional): `data/ship_performance_model.csv`.  
 
