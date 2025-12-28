@@ -79,6 +79,11 @@ Ejemplos de preguntas que se pueden responder con el dashboard:
 - ¿En qué condiciones climáticas se observa mayor caída en el margen de los viajes?  
 - ¿Qué viajes individuales presentan comportamientos anómalos (margen muy alto o muy bajo)?
 
+## Alcance y Limitaciones
+
+- El presente Dataset es estático, no es un analisis en tiempo real.  
+- Las situaciones climaticas fueron agrupadas de acuerdo a la similitud de la mayoria de los climas (esta clasificacion, es original del Dataset).
+
 ## Cómo reproducir el proyecto
 
 1. Clonar este repositorio:
