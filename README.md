@@ -48,9 +48,11 @@ Definiciones resumidas (detalle completo en `docs/kpi_definitions.md`):
 
 ## Flujo de trabajo
 
-1. El dataset original se almacena en `data/ship_performance_raw.csv`.  
-2. El resultado se exporta (por ejemplo a `data/ship_performance_model.csv`) y se conecta a Looker Studio como fuente del dashboard.  
-3. En `dashboard/README_dashboard.md` se documenta la estructura del dashboard y se incluyen capturas de pantalla.
+1. El dataset original se almacena en `data/ship_performance_raw.csv`.
+2. En `notebooks/01_data_preparation.py` se realiza la preparación básica y se genera `data/ship_performance_model.csv`.
+3. En `notebooks/02_kpi_calculation.py` se calculan los KPIs de negocio y se genera `data/ship_performance_with_kpis.csv`.
+4. El archivo enriquecido se conecta a Looker Studio como fuente del dashboard.
+5. En `dashboard/screenshots.md` se documentan las páginas del dashboard con capturas de pantalla.
 
 ## Dashboard en Looker Studio
 
