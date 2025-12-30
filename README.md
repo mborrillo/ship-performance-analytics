@@ -91,12 +91,9 @@ Ejemplos de preguntas que se pueden responder con el dashboard:
 
 ## Cómo reproducir el proyecto
 
-1. Clonar este repositorio:
-git clone https://github.com/mborrillo/ship-performance-analytics.git
-cd ship-performance-analytics
-
-2. Colocar el dataset original en `data/ship_performance_raw.csv` (o seguir las instrucciones para descargarlo desde la fuente original).  
-3. Conectar el archivo resultante a Looker Studio y replicar la estructura de páginas descrita en `dashboard/README_dashboard.md`.
+- 1. Clonar este repositorio: git clone https://github.com/mborrillo/ship-performance-analytics.git cd ship-performance-analytics
+- 2. Colocar el dataset original en `data/ship_performance_raw.csv` (o seguir las instrucciones para descargarlo desde la fuente original).  
+- 3. Conectar el archivo resultante a Looker Studio y replicar la estructura de páginas descrita en `dashboard/README_dashboard.md`.
 
 ## Licencia y créditos
 
