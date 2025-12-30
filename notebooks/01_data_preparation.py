@@ -17,17 +17,13 @@ print("Shape:", df.shape)
 print("Columnas:", df.columns.tolist())
 print(df.describe(include="all").T.head())
 
-# 3. Limpieza mínima (ajusta según tu dataset real)
-# Ejemplos de operaciones típicas:
-# - Normalizar nombres de columnas
+# 3. Limpieza mínima (Se normalizan nombres de columnas, se aseguran tipos de datos básicos, se eliminan filas vacías)
 df.columns = [c.strip() for c in df.columns]
 
-# - Asegurar tipos de datos básicos
-# df["Voyage_Date"] = pd.to_datetime(df["Voyage_Date"], errors="coerce")
+df["Voyage_Date"] = pd.to_datetime(df["Voyage_Date"], errors="coerce")
 
-# - Eliminar filas totalmente vacías
 df = df.dropna(how="all")
 
-# 4. Guardar dataset preparado (aunque sea casi igual al raw)
+# 4. Se guardaa el dataset preparado
 df.to_csv(MODEL_PATH, index=False)
 print("Dataset preparado guardado en:", MODEL_PATH)
