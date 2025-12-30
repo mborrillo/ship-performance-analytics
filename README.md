@@ -81,9 +81,11 @@ Ejemplos de preguntas que se pueden responder con el dashboard:
 
 ## Alcance y Limitaciones
 
-- El presente Dataset es estático, no es un analisis en tiempo real.  
-- El Dataset recopila datos de un periodo determinado. En este caso, abarca desde 06/2023 a 06/2024 (1 año).
-- Las situaciones climaticas fueron agrupadas de acuerdo a la similitud de la mayoria de los climas (esta clasificacion, es original del Dataset).
+- El dataset es estático, no se trata de un análisis en tiempo real.
+- El dataset cubre un periodo acotado (06/2023 a 06/2024), por lo que las conclusiones se restringen a este intervalo únicamente.
+- Las situaciones climáticas fueron agrupadas según la clasificación original del dataset, lo que puede simplificar la realidad operativa.
+- No se incluyen métricas de emisiones, cumplimiento normativo ni utilización de capacidad, que son relevantes en operaciones reales de flota.
+- El modelo no incorpora costos financieros, ni ingresos complementarios (por ejemplo, recargos o descuentos específicos), por lo que la rentabilidad es operativa, no total.
 
 ## Cómo reproducir el proyecto
 
