@@ -82,6 +82,7 @@ Ejemplos de preguntas que se pueden responder con el dashboard:
 ## Alcance y Limitaciones
 
 - El presente Dataset es estático, no es un analisis en tiempo real.  
+- El presente Dataset recopila datos de un periodo determinado, el cual es en este caso abarca desde 06/2023 a 06/2024 (1 año).
 - Las situaciones climaticas fueron agrupadas de acuerdo a la similitud de la mayoria de los climas (esta clasificacion, es original del Dataset).
 
 ## Cómo reproducir el proyecto
